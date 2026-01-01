@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://webmastereric.github.io/digital-marketing-king/</loc>
+    <loc>https://webmastereric.github.io/Digital-marketing-king/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- Spokes will be appended here by the private engine -->
+  <url>
+    <loc>https://webmastereric.github.io/Digital-marketing-king/spokes/digital-marketing-agency-brisbane-e9b5d96e/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://webmastereric.github.io/Digital-marketing-king/spokes/digital-marketing-consultant-colorado-springs-84bebb26/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://webmastereric.github.io/Digital-marketing-king/spokes/local-seo-services-for-car-rentals-38c2daaa/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://webmastereric.github.io/Digital-marketing-king/spokes/local-seo-services-cost-9bffab2d/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://webmastereric.github.io/Digital-marketing-king/spokes/local-seo-consultant-0ba482d1/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
