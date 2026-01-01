@@ -1,57 +1,29 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="Vbsgzad0o8PMx_M1E8RsFqAFN87c3A_nXuQNuTPh-mA" />
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8X0KPJW489"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-8X0KPJW489');
-  </script>
-
   <meta charset="utf-8" />
-  <title>Webmaster Eric — SEO & Conversion Systems Consultant</title>
+  <title>Webmaster Eric — SEO &amp; Conversion Systems Consultant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Owned search results that turn free organic traffic into paid leads. Reach out via Google when ready." />
+  <meta name="description" content="I build owned search results that turn free organic traffic into paid leads." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://webmastereric.github.io/Digital-marketing-king/" />
 
   <style>
     :root{
-      --bg:#0b0d12;
-      --glass:rgba(255,255,255,.08);
-      --border:rgba(255,255,255,.18);
-      --text:#e9ecff;
-      --muted:#aab2d5;
-      --accent:#7c5cff;
-      --accent2:#00d4ff;
-      --radius:22px;
-      --blur:18px;
+      --bg:#0b0d12; --glass:rgba(255,255,255,.08); --border:rgba(255,255,255,.18);
+      --text:#e9ecff; --muted:#aab2d5; --accent:#7c5cff; --accent2:#00d4ff;
+      --radius:22px; --blur:18px; --max:980px;
     }
-
     *{box-sizing:border-box}
-
     body{
-      margin:0;
-      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
-      color:var(--text);
+      margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;color:var(--text);
       background:
         radial-gradient(1200px 600px at 10% 0%, rgba(124,92,255,.25), transparent 60%),
         radial-gradient(1000px 500px at 90% 10%, rgba(0,212,255,.20), transparent 60%),
         var(--bg);
     }
-
     a{text-decoration:none;color:inherit}
-
-    .wrap{
-      max-width:980px;
-      margin:0 auto;
-      padding:28px 20px 120px;
-    }
-
+    .wrap{max-width:var(--max);margin:0 auto;padding:28px 20px 120px}
     .glass{
       background:var(--glass);
       backdrop-filter:blur(var(--blur));
@@ -61,74 +33,21 @@
       padding:28px;
       margin-bottom:22px;
     }
-
-    .kicker{
-      font-size:12px;
-      letter-spacing:.16em;
-      text-transform:uppercase;
-      color:var(--muted);
-    }
-
-    h1{
-      font-size:36px;
-      line-height:1.15;
-      margin:14px 0 14px;
-    }
-
-    h2{
-      font-size:20px;
-      margin:0 0 12px;
-    }
-
-    .sub{
-      font-size:17px;
-      line-height:1.7;
-      color:var(--muted);
-      max-width:720px;
-    }
-
+    .kicker{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+    h1{font-size:36px;line-height:1.15;margin:14px 0 14px}
+    h2{font-size:20px;margin:0 0 12px}
+    .sub{font-size:17px;line-height:1.7;color:var(--muted);max-width:760px;margin:0}
     .btn{
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      padding:16px 22px;
-      border-radius:16px;
-      font-weight:800;
-      background:linear-gradient(90deg,var(--accent),var(--accent2));
-      color:#0b0d12;
+      display:inline-flex;align-items:center;justify-content:center;
+      padding:16px 22px;border-radius:16px;border:none;font-weight:900;cursor:pointer;
+      background:linear-gradient(90deg,var(--accent),var(--accent2));color:#0b0d12;
     }
-
-    .btn.secondary{
-      background:rgba(255,255,255,.10);
-      border:1px solid var(--border);
-      color:var(--text);
-    }
-
-    .cta-row{
-      display:flex;
-      gap:14px;
-      flex-wrap:wrap;
-      margin-top:22px;
-    }
-
-    .grid{
-      display:grid;
-      gap:20px;
-    }
-
-    @media(min-width:820px){
-      .grid{grid-template-columns:1fr 1fr}
-    }
-
-    ul{
-      margin:0;
-      padding-left:20px;
-      color:var(--muted);
-    }
-
+    .btnRow{display:flex;gap:14px;flex-wrap:wrap;margin-top:22px}
+    .grid{display:grid;gap:20px}
+    @media(min-width:820px){.grid{grid-template-columns:1fr 1fr}}
+    ul{margin:0;padding-left:20px;color:var(--muted)}
     li{margin-bottom:10px}
-
-    .latest a{
+    .latestLink{
       display:block;
       padding:16px 18px;
       border-radius:16px;
@@ -136,64 +55,32 @@
       background:rgba(255,255,255,.06);
       margin-top:14px;
     }
-
-    .latest small{
-      display:block;
-      font-size:12px;
-      color:var(--muted);
-      margin-top:6px;
-    }
-
-    details{
-      border:1px solid var(--border);
-      border-radius:16px;
-      background:rgba(255,255,255,.06);
-      padding:16px 18px;
-      margin-top:14px;
-    }
-
-    summary{
-      cursor:pointer;
-      font-weight:800;
-    }
-
+    .empty{color:var(--muted)}
+    details{border:1px solid var(--border);border-radius:16px;background:rgba(255,255,255,.06);padding:16px 18px;margin-top:14px}
+    summary{cursor:pointer;font-weight:900}
     .sticky{
-      position:fixed;
-      bottom:0;
-      left:0;
-      right:0;
+      position:fixed;left:0;right:0;bottom:0;
       background:rgba(11,13,18,.92);
       backdrop-filter:blur(16px);
       border-top:1px solid var(--border);
-      padding:14px;
-      display:flex;
-      justify-content:center;
-      z-index:999;
+      padding:14px;display:flex;justify-content:center;z-index:999;
     }
   </style>
 </head>
-
 <body>
 <div class="wrap">
 
-  <!-- HERO -->
   <div class="glass">
     <div class="kicker">Webmaster Eric</div>
-    <h1>SEO & Conversion Systems Consultant</h1>
-    <p class="sub">
-      I build owned search results that turn free organic traffic into paid leads.
-      Reach out when you’re ready.
-    </p>
+    <h1>SEO &amp; Conversion Systems Consultant</h1>
+    <p class="sub">I build owned search results that turn free organic traffic into paid leads.</p>
 
-    <div class="cta-row">
-      <a class="btn" href="https://share.google/CqsRLOF32cWamu6Wc" target="_blank" rel="noopener">
-        Contact via Google
-      </a>
-      <a class="btn secondary" href="#learn">Learn more</a>
+    <div class="btnRow">
+      <a class="btn" href="https://share.google/CqsRLOF32cWamu6Wc" target="_blank" rel="noopener">Contact via Google</a>
+      <a class="btn" href="#learn">Learn more</a>
     </div>
   </div>
 
-  <!-- WHAT / WHY -->
   <div class="grid" id="learn">
     <div class="glass">
       <h2>What I Do</h2>
@@ -203,7 +90,6 @@
         <li>Create one clear path to action</li>
       </ul>
     </div>
-
     <div class="glass">
       <h2>How This Helps</h2>
       <p class="sub">
@@ -213,44 +99,28 @@
     </div>
   </div>
 
-  <!-- LATEST -->
   <div class="glass">
     <h2>Latest Deployments</h2>
     <p class="sub">Authority pages answering real buyer searches.</p>
+    
+      <a class="latestLink" href="https://webmastereric.github.io/Digital-marketing-king/spokes/digital-marketing-agency-ads-b4b16a63/">Digital Marketing Agency Ads — Webmaster Eric</a>
 
-    <div class="latest">
-      <a href="https://webmastereric.github.io/Digital-marketing-king/spokes/digital-marketing-agency-brisbane-e9b5d96e/">
-        Digital Marketing Agency Brisbane — Real Operator Answer
-        <small>Buyer intent</small>
-      </a>
-      <a href="https://webmastereric.github.io/Digital-marketing-king/spokes/digital-marketing-consultant-colorado-springs-84bebb26/">
-        Digital Marketing Consultant Colorado Springs — Real Operator Answer
-        <small>Buyer intent</small>
-      </a>
-      <a href="https://webmastereric.github.io/Digital-marketing-king/spokes/local-seo-services-for-car-rentals-38c2daaa/">
-        Local SEO Services for Car Rentals — Real Operator Answer
-        <small>Local intent</small>
-      </a>
-    </div>
+      <a class="latestLink" href="https://webmastereric.github.io/Digital-marketing-king/spokes/local-seo-services-in-chennai-8417d4d3/">Local Seo Services In Chennai — Webmaster Eric</a>
+
+      <a class="latestLink" href="https://webmastereric.github.io/Digital-marketing-king/spokes/digital-marketing-consultant-bangalore-c48fadb1/">Digital Marketing Consultant Bangalore — Webmaster Eric</a>
+
   </div>
 
-  <!-- FAQ -->
   <div class="glass">
     <h2>FAQ</h2>
-
     <details>
       <summary>How long before I see traction?</summary>
       <p class="sub">Impressions and clicks come first. Leads follow as trust compounds.</p>
     </details>
-
     <details>
       <summary>What happens if I contact you?</summary>
-      <p class="sub">
-        We talk about what you’re trying to fix. If there’s a fit, I’ll say so.
-        If not, I won’t waste your time.
-      </p>
+      <p class="sub">We talk about what you’re trying to fix. If there’s a fit, I’ll say so. If not, I won’t waste your time.</p>
     </details>
-
     <details>
       <summary>Do you run ads?</summary>
       <p class="sub">No. This is about owned visibility that keeps working.</p>
@@ -259,12 +129,8 @@
 
 </div>
 
-<!-- STICKY CTA -->
 <div class="sticky">
-  <a class="btn" href="https://share.google/CqsRLOF32cWamu6Wc" target="_blank" rel="noopener">
-    Contact via Google
-  </a>
+  <a class="btn" href="https://share.google/CqsRLOF32cWamu6Wc" target="_blank" rel="noopener">Contact via Google</a>
 </div>
-
 </body>
 </html>
