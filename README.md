@@ -1,6 +1,6 @@
 Digital Marketing King — by Webmaster Eric
 
-i made this thinking of my 3 kids, the love of my life who i am with as i wrote this 2-4-2026 "my heart", , and for anyone looking up to me. if you searched for me this was just my online persona. i'm Eric Maxwell you can find me only on fscebook but i'm never on there. this was built to perhaps survive me. To show i used my mind constructively to innovate. 
+i made this thinking of my 3 kids, the love of my life who i am with as i wrote this 2-4-2026 "my heart", and for anyone looking up to me. if you searched for me this was just my online persona. i'm Eric Maxwell you can find me only on Facebook but i'm never on there. this was built to perhaps survive me. To show i used my mind constructively to innovate. 
 
 I validate myself. 
 
